@@ -1,0 +1,110 @@
+1.  )  Write an if-statement that determines when you can drive, vote, and drink. 
+ Use compound if-statements where needed.
+
+if (age >21){
+System.out.println("You can drink,drive and vote");
+} else if (age > 18){
+System.out.println("You can drive and vote");
+}
+else if (age >16){
+sout("You can drive");
+}
+else {
+System.out.println("You cant do anything ");
+}
+
+2.  )  Put the code in question #1 in a method which receives the age, and sets a String message to the correct value.  At the end,print the message.-  - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+void printAgeMessage(int age ){
+String message ;
+if (age >21){
+message = "You can drink,drive and vote"
+} else if (age > 18){
+message = "You can drive and vote"
+}
+else if (age >16){
+message = "You can drive"
+}
+else {
+message = "You cant do anything "
+}
+
+System.out.println(message);
+
+}
+
+
+
+3.)  Write a while-loop that validates that an age is at least 16. (Remember to do a priming read before the while-loop,and then as the last thing inside the loop.
+Scanner sc = new Scanner(System.in);
+int age = sc.nextInt();
+while (age <16){
+System.out.println("Age has to be 16");
+int age = sc.nextInt();
+}
+4.)  What happens if you forget to read the user's input inside the while-loop?
+infinite loop
+5.)  How many times will the while loop run if you input an age of 10 9 5 17 ?-------------------------------------------------
+3
+6.)   Initialize int num to 100.  Write a while loop that will keep reducing the value of num by 2 until it reaches 0.
+for (int num =100;num>-1;num-=2){}
+7.)  Initialize an int sumOfOdds to 0.  Create a do-while loop that stops when the user enters -1.  In each iteration, ask the user for a number.  Determine if the numberentered by user is an odd number, and if so add it to a variable called sumOfOdds.  After the loop, print the sumOfOdds.
+Scanner sc = new Scanner(System.in);
+int sumOfOdds =0;
+int input ;
+do {
+input = sc.nextInt();
+if (input %2 != 0){
+sumOfOdds+=input;
+}while(input != -1);
+
+}
+8.)  Write a for-loop that uses i as the loop counter, and runs 10 times.  Each time it loops, multiply i by 2, and print the product.  When the loop ends,print the content of i.
+int i;
+for ( i =0;i<10;i++){
+System.out.println(i*2);
+}
+System.out.println(i);
+
+9.)  Write a for-loop that will print the values from -20 to 50.
+
+for (int i =-20;i<51;i++){System.out.println(i);}
+
+10.)  Write a nested for-loop that will print the times tables for the numbers 2 thru 5, multiplying each number times 1 thur 
+12.State:2 x 1 = 22 x 2 = 4...2 x 12 = 243 x 1 = 33 x 2 = 6etc.
+for (int i = 2; i<6;i++){
+			for(int j = 0;j<13;j++){
+				System.out.printf(" %d x %d = %d\n",i,j,i*j);
+			}
+		}
+11.)  Write a nested for-loop that will create a rectangle of * that is 4 rows x 5 columns each.
+/* package whatever; // don't place package name! */
+ 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	for (int rows =1;rows<6;rows++){
+ 
+		for(int cols =rows;cols>0;cols--){
+			System.out.print('*');
+		}
+		System.out.println();
+	}
+ 
+	}
+}
+12.)  Write a method called encryptMe() which receives a String as an input parameter, and returns an encypted version of the original String.
+String encryptMe(String s){
+String result ="";
+for (int i =0;i<s.length();i++){
+result += (s.charAt(i)+20);
+}
+return result;
+}

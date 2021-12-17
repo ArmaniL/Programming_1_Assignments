@@ -1,0 +1,19 @@
+
+Average GPA: 3.24
+The student with the Highest GPA is: Weise, Armani
+Panther ID: 6187002
+GPA:        4.0
+
+The student with the lowest GPA is: Massle, King
+Panther ID: 457849493
+GPA:        1.2
+
+Average GPA: 2.98
+The student with the Highest GPA is: Weise, Armani
+Panther ID: 6187002
+GPA:        4.0
+
+The student with the lowest GPA is: Bleach, Copper
+Panther ID: 345422
+GPA:        1.0
+

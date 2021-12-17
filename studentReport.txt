@@ -1,0 +1,18 @@
+Average GPA: 3.78
+The student with the Highest GPA is: John, Smith
+Panther ID: 123456789
+GPA:        3.78
+
+The student with the lowest GPA is: John, Smith
+Panther ID: 123456789
+GPA:        3.78
+
+Average GPA: 3.78
+The student with the Highest GPA is: John, Smith
+Panther ID: 123456789
+GPA:        3.78
+
+The student with the lowest GPA is: John, Smith
+Panther ID: 123456789
+GPA:        3.78
+
